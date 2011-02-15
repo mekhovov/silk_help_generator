@@ -1,0 +1,67 @@
+h1. Silk Help Generator
+
+The Silk Help Generator is a help parser, similar to JavaDoc, for generating documentation on 4Test functions and methods. 
+The Silk Help Generator "was written":http://www.qadownloads.com/Segue/more2.html by David Genrich using the 4Test launguage. 
+
+It`s improved and adapted version for AutoTest department ISD company.
+General purpose: Simple overview of existing code, making searchable html-presentation and printable documentation.
+
+h2. Feature List
+
+*	All types of code coverage with navigation possibility.
+*	Generates web-based API documentation
+*	Dynamic search (JavaScript/AJAX).
+*	Hierarchic tree-view showing internal structure.
+*	Various types of statistics (authors, methods, functions, etc.).
+*	Code view possibility with dynamic navigation elements.
+*	Can work with trunk and variant
+*	Generates code for the Segue Library Browser
+*	Can work with a single or multiple projects
+*	Validates the help syntax based on the rules required for the Segue Library Browser
+
+h2. Installation
+
+There are two installation requirements:
+* The first is to set a Run Time Compiler constant 'SilkDir' which points to the root of your automation code.  
+* The second is to set a new location for the Library Browser file.
+
+h2. Help Syntax
+
+Add comment before method or function
+
+<pre>
+//Method: INTEGER MethodName (STRING f_sParam, INTEGER f_iParam)
+  // Description: Create required amount of visits in Soft AR through SQL queries. 
+  // Group: group name
+  // Class: class name
+  // Author: author name
+  // Arguments:
+  //    f_sParam    :   desription of f_sParam
+  //    f_iParam    :   desription of f_iParam
+  // Note:
+  //    some notes
+  // Example:
+  //    some example
+  // Return:
+  //    value   :   description
+  // Generated exceptions:
+  //    some exceptions
+</pre>
+
+You can use: @//Function: INTEGER Function ()@ for functions
+
+h2. Running the Silk Help Generator
+
+#	Open the Silk Help Generator testcase: {SilkDir}\silk_help_generator\SilkHelp.t
+# Select Run | Run to start the generator
+
+h2. Used Languages / Technologies:
+
+*	SilkTest
+* HTML/CSS
+* JavaScript
+* AJAX
+
+h2. P.S.
+
+Sorry for so dirty code. I was writting it on the fly, so it isn't very clean. Plus, I kept adding requirements and features as I was writing it.

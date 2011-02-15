@@ -1,0 +1,139 @@
+<LINK rel="stylesheet" type="text/css" href="js/stylesheet.css"
+	title="Style">
+
+	<STYLE>
+#menu {
+	clear: both;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	white-space: nowrap;
+	text-align: center;
+}
+
+#menu ul {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 2px;
+	margin: 0px;
+	padding-top: 2px;
+	list-style-type: none
+}
+
+#menu li {
+	padding-right: 3px;
+	display: inline;
+	padding-left: 3px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+	margin-right: 3px;
+	list-style-type: none
+}
+
+#menu li a {
+	color: #000;
+	text-decoration: none
+}
+#menu li a.active {
+	color: #FFF;
+	text-decoration: none
+}
+#menu li a:hover {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	border-bottom: #DDDDDD 3px solid
+}
+
+#menu li a:unknown {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	border-bottom: red 3px solid
+}
+
+</STYLE>
+
+
+<STYLE>
+body {
+	font-family: Tahoma;
+	font-size: 11;
+	text-align: center;
+	margin: 0 0 10;
+	background-color: #FFF;
+	scrollbar-face-color: #FFF;
+	scrollbar-3dlight-color: #FFF;
+	scrollbar-track-color: #FFF;
+	scrollbar-shadow-color: #527194;
+	scrollbar-darkshadow-color: #FFF;
+	scrollbar-arrow-color: #527194;
+	scrollbar-highlight-color: #527194;
+}
+
+.headertable {
+	font-weight: bold;
+	font-size: 13;
+	background-color: #036396;/*#5A739C;*/
+	color: #FFF;
+	margin-bottom: 15;
+	width: 100%;
+	border: 0;
+}
+
+.padding {
+	padding: 5;
+}
+
+.width {
+	width: 135;
+}
+
+.noborder {
+	border-style: none;
+}
+
+.alignright {
+	text-align: right;
+}
+
+.alignleft {
+	text-align: left;
+}
+
+.aligncenter {
+	text-align: center;
+}
+</STYLE><table class="headertable" background="images/gradient.jpg" style="background-repeat:no-repeat">
+	<tr>
+		<td class="noborder padding alignleft width">
+		<p>ISD Automated Testing</p>
+		</td>
+		<td class="noborder padding aligncenter">
+		<div id="HPlace"></div>
+		<script> var h = document.getElementById("Header"); if (h = document.getElementById("Header")) HPlace.innerHTML=document.getElementById("Header").innerHTML;</script>
+		</td>
+		<td>
+		<DIV id="menu">
+		<UL>
+			<LI><A href="index.html" target="_top">AR / LAB&nbsp;&nbsp;4.0</A></LI>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+			<LI><A class = "active"; href="index_45.html" target="_top">AR / LAB&nbsp;&nbsp;4.5</A></LI>
+
+		</UL>
+		</DIV>
+		</td>
+		
+		<td class="noborder padding alignright width">
+		<div id="date"></div>
+		<script type="text/javascript">
+	var d=new Date()
+	var weekday=new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat")
+	var monthname=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+	date.innerHTML = weekday[d.getDay()] + " "+d.getDate() + " "+monthname[d.getMonth()] + " "+
+	                 d.getFullYear();
+    </script></td>
+	</tr>
+</table>

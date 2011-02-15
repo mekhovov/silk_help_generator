@@ -1,0 +1,460 @@
+body {font-family : Tahoma;	font-size: 11; text-align : center;	margin: 0 0 0;
+	  background-color: #FFF; scrollbar-face-color: #FFF; scrollbar-3dlight-color: #FFF;
+	  scrollbar-track-color: #FFF; scrollbar-shadow-color: #527194;	scrollbar-darkshadow-color: #FFF;
+ 	  scrollbar-arrow-color: #527194; scrollbar-highlight-color: #527194; }
+
+.error {
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+
+}
+
+.ref {
+	font-size: 11px;
+	font-weight : bold;
+	color: blue;
+	text-decoration : none;
+}
+
+
+#wrapper {text-align: center;}
+
+#reports_wrapper {
+	min-height: 350px;/*570px;*/
+}
+
+#envelope {
+	width: 713px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 10px;/*256px;*/
+	text-align: left;
+	}
+	#contentBox {
+		position: relative;
+		width: 713px;			
+		}
+		#contentArea {
+			margin: 13px 0px 0px 0px;/*231px;*//*13 0 25 26*/
+			height: 350px;/*570px;*/
+			min-height: 350px;/*570px;*/
+			}
+			#contentArea h1 {
+				font: 13px Tahoma, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				color: #996600;
+			}
+			#contentArea h2 {
+				font: 13px Tahoma, Arial, Helvetica, sans-serif;
+				font-weight: bold;
+			}
+			#contentArea h3 {
+				font-size: 11px;
+				font-weight: bold;
+			}
+			#contentArea .pullquote {
+				font-size: 12px;
+			}
+			#contentArea .ro {
+				color: Gray;
+			}
+			#contentArea a:link, #contentArea a:visited {
+				font-size: 11px;
+				color: #538F22;
+				font-weight: bold;
+				}
+a:link {
+	font-size: 11px;
+	font-weight : bold;
+	color: #538F22;
+	text-decoration : none;
+}
+
+a:hover { 
+	font-size: 8pt;
+	color: navy;
+	text-decoration : none;
+	}
+
+a:visited {
+	font-size: 11px;
+	font-weight : bold;
+	color: #444;
+	text-decoration : none;
+}
+
+#header {
+	margin: 0px 0 17px 850px;
+	font-size: 9px;
+	color: #666;
+	text-align: left;
+	bor/der: 1px solid black;
+}
+
+#header a:link, #header a:visited {
+	font-size: 9px;
+	color: #666;
+	text-decoration: none;
+}
+#header a.footSelected:link, #header a.footSelected:visited {
+	color: #62bd19;
+}
+
+#footer {
+	margin: 80px 0 17px 31px;
+	font-size: 9px;
+	color: #666;
+	text-align: left;
+	bor/der: 1px solid black;
+}
+#footer a:link, #footer a:visited {
+	font-size: 9px;
+	color: #666;
+	text-decoration: none;
+}
+#footer a.footSelected:link, #footer a.footSelected:visited {
+	color: #62bd19;
+}
+
+#fail {
+	font-size: 11px;
+	color: #ff0000;
+}
+#fail a:link, #fail a:visited {
+	font-size: 11px;
+	color: #ff0000;
+}
+#fail a.footSelected:link, #fail a.footSelected:visited {
+	font-size: 11px;
+	color: #ff0000;
+}
+
+#pass {
+	font-size: 11px;
+	color: #538F22;
+}
+#pass a:link, #pass a:visited {
+	font-size: 11px;
+	color: #538F22;
+}
+#pass a.footSelected:link, #pass a.footSelected:visited {
+	font-size: 11px;
+	color: #538F22;
+}
+
+#repfooter {
+	font-size: 9px;
+	color: #666;
+	text-align: left;
+	bor/der: 1px solid black;
+}
+#repfooter a:link, #repfooter a:visited {
+	font-size: 9px;
+	color: #666;
+	text-decoration: none;
+}
+#repfooter a.footSelected:link, #repfooter a.footSelected:visited {
+	color: #62bd19;
+}
+
+input, textarea, button
+{
+	font-size: 9pt;
+	color: #000000;
+	font-family: Tahoma, arial, helvetica, serif;
+}
+
+input.check
+{
+}
+
+select
+{
+	font-size: 8pt;
+	font-weight: normal;
+	color: #000000;
+	font-family: Tahoma, arial, helvetica, serif;
+}
+
+td {
+	font-family: tahoma, verdana;
+	font-size:8pt;
+}
+
+.header {
+	background-color: #EEEEEE;
+}
+
+.selected {
+	color: blue;
+	font-size:10pt;
+}
+
+.common {
+	color: black;
+	font-size:8pt;
+}
+
+.caseHeader {
+	font-family: tahoma, verdana;
+	font-size:8pt;
+	background-color:buttonface;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:1px;
+	border-top:1px solid buttonhighlight;
+	border-left:1px solid buttonhighlight;
+	border-right:1px solid buttonshadow;
+	border-bottom:1px solid buttonshadow;
+	width:20%;
+	cursor:default;
+	position:relative;
+	overflow-x:hidden;
+	white-space: nowrap;
+}
+
+.caseFooter {
+	font-family: tahoma, verdana;
+	font-size:8pt;
+	padding-right:2px;
+	position:relative;
+	background-color:white;
+	overflow-x:hidden;
+	padding-bottom:8px;
+}
+
+.gridHeader {
+    background-color: #DDDDDD;/*#0b3b63;*/
+    col/or: #FFFFFF;
+    font-weight: bold;
+	font-family: tahoma, verdana;
+	fon/t-size:8pt;
+	height: 15;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:1px;
+	border-top:1px solid buttonhighlight;
+	border-left:1px solid buttonhighlight;
+	border-right:1px solid buttonshadow;
+	border-bottom:1px solid buttonshadow;
+	cursor:default;
+	overflow-x:hidden;
+	white-space: nowrap;
+}
+
+.CGrid {
+	filter:alpha(opacity=90);
+	width: 545;
+	height: 290;
+	position: absolute;
+    border: 1 solid buttonshadow;
+    display: block;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: #FFFFFF;
+}
+
+.CReport {
+	filter:alpha(opacity=90);
+	wid/th: 545;
+	hei/ght: 290;
+	position: absolute;
+    border: 1 solid buttonshadow;
+    display: block;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: #FFFFFF;
+}
+
+.STGrid {
+	filter:alpha(opacity=90);
+	width: 700;
+	h/eight: 280;
+	position: absolute;
+    border: 1 solid buttonshadow;
+    display: block;
+	/*overflow-y: auto;*/	
+	background-color: #FFFFFF;
+}
+
+.RGrid {
+	filter:alpha(opacity=90);
+	w/idth: 700;
+	h/eight: 280;
+	pos/ition: absolute;
+    border: 1 solid buttonshadow;
+    dis/play: block;
+	/*overflow-y: auto;*/	
+	background-color: #FFFFFF;
+}
+.CStatus {
+	width: 713;
+	height: 18;
+    overflow-y: visible;	
+	background-color: #FFF;
+	margin-left: 2px;
+}
+
+.CTree {
+	filter:alpha(opacity=90);
+	width: 190;
+	height: 550;
+	pos/ition: absolute;
+    bor/der: 1 solid buttonshadow;
+    display: block;
+    overflow-y: /*visible; */auto;
+    overflow-x: auto;
+    background-color: #F8F9F8;
+}
+
+.tlcOuterDiv {
+	border-top: 1px solid threeddarkshadow;
+	width: 100%;
+  	position: relative;
+	overflow-x: visible;
+	overflow-y: hidden;
+	background-color: #F8F9F8;
+}
+
+.tlcMainTable {
+}
+
+.tlcHeaderLabel {
+	font-weight: bold;
+	font-si/ze: 13;
+	background-color: #036396;/*#5A739C;*/
+ 	color: #FFF;
+ 	margin-b/ottom: 15;
+ 	border: 0;
+	text-align: left;
+	margin: 0 0 0;
+	bac/kground-color: #0b3b63;
+    c/olor: #FFFFFF;
+    f/ont-weight: bold;
+	font-family: tahoma, verdana;
+	font-size:8pt;
+	padding-left:5px;
+	padding-right:3px;
+	padding-top:7px;
+	padding-bottom:5px;
+	border-/top:1px solid buttonhighlight;
+	border/-left:1px solid buttonhighlight;
+	border-/right:1px solid buttonshadow;
+	border-b/ottom:1px solid buttonshadow;
+	width:100%;
+	height: 17;
+	curs/or:default;
+	position:relative;
+	overfl/ow-x:hidden;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.tlcHeaderCell {
+	back/ground-color:black;
+	padd/ing:1px;
+	padd/ing-left:0px;
+	vert/ical-align:top;
+}
+
+.tlcRow {
+	font-family: tahoma, verdana;
+	font-size:8pt;
+	position:relative;
+	overflow-x:hidden;
+	padding-left:2px;
+	padding-left:2px;
+	background-color: #F8F9F8;
+}
+
+.tlcRowDiv {
+	font-family: tahoma, verdana;
+	font-size:8pt;
+	padding-right:2px;
+	position:relative;
+	background-color: #F8F9F8;
+	padding-bottom:16px;
+	overflow-x:hidden;
+}
+
+.tlcRowDivClipped {
+	font-family: tahoma, verdana;
+	font-size:8pt;
+	padding:0px;
+	position:relative;
+	overflow-x:hidden;
+	padding-bottom:16px;
+	border-right: 1px solid white;
+	background-color: #F8F9F8;
+	filter:progid:DXImageTransform.Microsoft.Shadow(direction=90,color=#CCCCCC,strength=3);
+}
+
+.tlcNodeChildren {
+	margin:0px;
+	vertical-align: middle;
+	position: relative;
+	overflow: hidden;
+	background-color: #F8F9F8;
+}
+
+.tlcNodeLabel {
+	padding: 0px;
+	overflow: hidden;
+	position: relative;
+	white-space: nowrap;
+	height:16px;
+	vertical-align: top;
+	background-color: #F8F9F8;
+}
+
+.tlcNodeLabelSelected {
+	padding: 0px;
+	overflow: hidden;
+	position: relative;
+	white-space: nowrap;
+	height:16px;
+	vertical-align: top;
+	color:white;
+	background-color: darkblue;
+}
+
+.tlcNodeLabelText {
+	margin-left: 4px;
+	height:16px;
+	padding-left:3px;
+	padding-right:3px;
+	background-color: #F8F9F8;
+}
+
+.tlcNodeLabelTextHovering {
+	filter:alpha(opacity=90);
+	margin-left: 4px;
+	background-color: #DDDDDD;
+	height:16px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.tlcNode {
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+	overflow: hidden;
+	position: relative;
+	background-color: #F8F9F8;
+}
+
+.tlcColumnDivider {
+	font-size:6pt;
+	position: absolute;
+	width:17px;
+	height:16px;
+	cursor:move;
+	border:1px solid red;
+	background-color:yellow;
+	z-index:100;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	pixelLeft:expression(tlcRelocateDivider(this));
+}
